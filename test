@@ -1,0 +1,22 @@
+import time
+import os
+
+print('ТЕСТ НА ОРИЕНТАЦИЮ')
+time.sleep(1)
+print('Ты готов?')
+if input() == 'Да':
+    os.system('cls||clear')
+    print('Пизда')
+    time.sleep(1)
+    os.system('cls||clear')
+    time.sleep(0.5)
+    print('Ладно')
+    time.sleep(1)
+    os.system('cls||clear')
+    time.sleep(0.5)
+    print('Первый вопрос:', '\nТы пи*ор?')
+    if input() == 'Нет':
+        os.system('cls||clear')
+        time.sleep(0.5)
+        print('Пи*ора ответ')
+        time.sleep(3)
